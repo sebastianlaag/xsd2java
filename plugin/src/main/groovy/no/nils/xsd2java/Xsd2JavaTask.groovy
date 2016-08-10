@@ -11,7 +11,7 @@ import org.gradle.api.tasks.TaskAction
 class Xsd2JavaTask extends DefaultTask {
 
     @OutputDirectory
-    File generatedXsdDir = new File(Wsdl2JavaPlugin.DEFAULT_DESTINATION_DIR)
+    File generatedXsdDir = new File(Xsd2JavaPlugin.DEFAULT_DESTINATION_DIR)
 
     Configuration classpath
     def xsdsToGenerate
